@@ -17,11 +17,11 @@ Launching a simulation
 
 First, source `freeflyer`,
 
-    source ~/freeflyer_build/native/devel/setup.bash
+    source ~/Documents/freeflyer_build/native/devel/setup.bash
 
 and then launch the simulator
 
-	roslaunch astrobee dds:=false robot:=sim_pub rviz:=true sviz:=true
+	roslaunch astrobee sim.launch dds:=false robot:=sim_pub rviz:=true sviz:=true
 
 
 Updating the Astrobee Simulator
