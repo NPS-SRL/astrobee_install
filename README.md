@@ -7,7 +7,7 @@ Installing the Astrobee Simulator
 
 To install the Astrobee Simulator just execute the `Astrobee_install.sh`:
 
-    Astrobee_install.sh
+    ./Astrobee_install.sh
 
 
 After the install the `freeflyer`, `freeflyer_build`, `freeflyer_install`, and `freeflyer_android` will be located in `~/Documents`.
@@ -29,7 +29,7 @@ Updating the Astrobee Simulator
 
 When the [NASA's Astrobee simulator](https://github.com/nasa/astrobee) repository is updated you can run the update script to update your local copy of the simulator (it simply pulls the changes and re-compiles).
 
-    Astrobee_update.sh
+    ./Astrobee_update.sh
 
 
 
